@@ -1,16 +1,44 @@
 # 🤖 What is AICode?
 
-AICode is an AI coding assistant for Visual Studio Code, built around a groundbreaking "vibe coding" **methodology** focused on **code quality** and strict human review.
-
-It helps you:
+AICode is an AI coding assistant for Visual Studio Code, built around a new "vibe coding" **structured methodology** focused on architecture, code quality, and strict human review. It helps you:
 
 - explore and understand your codebase,
-- debug, write, or modify code with modern LLMs,
+- debug, write, or modify code with a modern AI,
 - when you want extra safety, guide the work through **structured specifications** that can be reviewed before any line of code is touched.
 
-_Main use cases:_ Create, maintain, audit, and explain complex, production-grade **enterprise applications**.
+_Use case:_ Create, maintain, audit, and explain large production-grade **enterprise applications**.
 
-![screenshot: AICode GUI](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/home.png)
+---
+
+<br />
+
+# 📐 AICode's methodology
+
+For the most complex tasks, to give you maximum control and ensure the best architecture and code quality, AICode uses a structured methodology:
+
+> Ideate → Specify → Refine → Code → Verify
+
+### 1. 👉 **Ideate**: Explain your need to the AI chatbot and negotiate until you reach an agreement.
+
+![methodology ideate user](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/methodology-ideate-user.png)
+
+![methodology ideate assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/methodology-ideate-assistant.png)
+
+### 2. 👉 **Specify**: The AI generates a detailed specification
+
+![methodology ideate specify](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/methodology-specify.png)
+
+### 3. 👉 **Refine**: Instruct the AI to double-check the specification several times to reduce design mistakes, catch edge cases early, and lower the overall bug rate.
+
+![methodology ideate refine](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/methodology-refine.png)
+
+### 4. 👉 **Code**: The AI generates the code in a virtual workspace. You stay in control of your files.
+
+![methodology ideate code](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/methodology-code.png)
+
+### 5. 👉 **Verify**: Instruct the AI to audit the produced code versus the specification.
+
+![methodology ideate verify](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/methodology-verify.png)
 
 ---
 
@@ -109,9 +137,6 @@ Turn any user request into a **self-contained specification document**: context,
 
 Each specification can be iteratively **refined** before coding and **verified** after coding. For complex work, this multi-pass workflow dramatically **improves quality** by reducing design mistakes, catching edge cases earlier, and lowering the overall bug rate.
 
-------------------------- _screenshot: AICode specification_ -------------------------  
-![screenshot: AICode specification](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/specif.png)
-
 ## 🐞 AI-assisted debugger
 
 AICode is instructed out-of-the-box with several debugging workflows such as **LLM-DEBUG-2: guided debugging with instrumentation** or **LLM-DEBUG-4: spotting regression cause through Git history**.
@@ -138,21 +163,19 @@ Patches and full-file proposals appear as **code frames** with headers, actions,
 You open a VS Code diff, tweak the code if needed, then accept or discard the changes.
 No automatic commits, no hidden background writes, no "surprise" modifications.
 
-------------------------- _screenshot: AICode patch view_ -------------------------  
-![screenshot: AICode patch view](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/diffview.png)
-
 ## 🔑 Bring your own key (BYOK) for OpenAI
 
 Connect VS Code directly to the OpenAI API using your own account.
 AICode does not use any intermediate server between your computer and OpenAI’s servers. You are billed directly by OpenAI at the standard public prices and you retain ownership of your inputs and own the outputs, under OpenAI’s terms.
 
-## 🔒 Offline-first design
+## 🔒 Offline-first secure & private design
 
-AICode **does not upload** your whole codebase contents to the cloud, because it runs primarily on your machine and **connects directly** to the OpenAI API servers (requests to OpenAI include full file paths structure and selected source code extracts):
+AICode **does not upload** your whole codebase contents to the cloud, because it runs primarily on your machine, **connects directly** to the OpenAI API servers, and sends only selected source code extracts:
 
 - project files are indexed locally in a `.aicode/index/` folder inside your workspace, and only context-relevant excerpts are sent to the API cloud server,
 - chat history is stored locally in a `.aicode/chat/` folder inside your workspace, and only parts of the active conversations are sent to the API cloud server,
-- the AI queries are sent directly to OpenAI, and you will get billed directly by OpenAI.
+- the AI queries are minimal, and sent directly to OpenAI,
+- you will get billed directly by OpenAI.
 
 ```text
 ╔═══════════════╗  ---file index--->  ╔═════════╗  --prompt + paths + snippets-->  ╔════════╗
@@ -162,31 +185,7 @@ AICode **does not upload** your whole codebase contents to the cloud, because it
       └─────────────────────────── direct billing ──────────────────────────────────────┘
 ```
 
----
-
-<br />
-
-# 📘 Basic tutorial: Implement a simple feature with AICode
-
-1. Explain the context to the bot; if you have a JIRA user story, paste it into the chat so AICode can analyze it and propose either **Code** or **Specify**.
-
-2. If the change is simple, choose **Code** and let AICode write the code; if you choose **Specify**, review the specification, then click **[Code]** to generate the coding prompt and paste it back to the bot.
-
-3. Review the generated code, adjust if needed, accept the changes, and you’re done.
-
----
-
-<br />
-
-# 📘 Advanced tutorial: Implement a very risky and complex feature with AICode
-
-You can see an example of this procedure applied fully in this YouTube video tutorial: (Programming with AI - tutorial AICode 02 - Advanced specification)[https://youtu.be/VPrU8WZJOVs].
-
----
-
-<br />
-
-# 🧪 Experimental local inference
+## 🧪 Experimental local inference
 
 AICode also includes **experimental support for local LLMs** (llama.cpp and chatgpt-oss).
 

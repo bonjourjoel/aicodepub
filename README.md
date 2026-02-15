@@ -1,34 +1,6 @@
-# 🖐️ Stop trusting AI coding assistants blindly
-
-AI coding assistants are fast and impressive.  
-They also sound confident even when they are wrong — and that’s dangerous for production code.
-
-AICode is review-first: no agents, no auto-edits — only reviewable patches.  
-AICode is built for developers who refuse to merge AI-generated code without understanding it.
-
-![Schema: AI shortcut vs human-reviewed](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/schema-river.png)
-
-I once had an AI propose deleting persistent data to “fix” a load error.
-It looked clean. It would have destroyed real data.  
-That moment made me realize: speed without control is not progress.
-
-AICode is for you if:
-
-- ✔ you review PRs
-- ✔ you care about long-term code quality
-- ✔ you’ve already caught AI hallucinations
-
-AICode is NOT for you if:
-
-- ✖ you want autonomous agents
-- ✖ you don’t read generated code
-- ✖ you prefer speed over correctness
-
-<br />
-
 # 🤖 What is AICode?
 
-AICode is an AI coding companion for Visual Studio Code, built around a structured "vibe coding" **methodology** focused on **code quality** and strict human review.
+AICode is an AI coding assistant for Visual Studio Code, built around a groundbreaking "vibe coding" **methodology** focused on **code quality** and strict human review.
 
 It helps you:
 
@@ -38,21 +10,37 @@ It helps you:
 
 _Main use cases:_ Create, maintain, audit, and explain complex, production-grade **enterprise applications**.
 
-------------------------- _screenshot: AICode GUI_ -------------------------  
 ![screenshot: AICode GUI](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/home.png)
 
-# 🚀 Quick start (at a glance)
+---
 
-- Install AICode from the VS Code Marketplace,
-- Open the AICode sidebar → Settings → "Engine: BYOK",
-- Follow the setup assistant to connect AICode to the OpenAI API,
-- Then start a new chat.
+<br />
 
-_For detailed steps, see "Quick start (OpenAI BYOK)" below._
+# 🚀 Quick setup
+
+![setup](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
+
+---
+
+<br />
 
 # 🎯 Why choose AICode?
 
-**Proven effectiveness**: AICode’s methodology was used to build AICode itself from scratch, in only 7 months, by a single developer with zero prior knowledge of VS Code extension development or AI protocols, using "vibe coding" for about 95% of the work. However, “vibe coding” with AICode is not about shipping a quick prototype that becomes unmaintainable. If you follow the methodology and its core principles, you can produce high-quality code through a tightly intertwined collaboration between the developer and the AI.
+AICode is a review-first AI code assistant: no agents, no auto-edits. It generates detailed specifications and reviewable patches. You keep the architecture and assurance quality under the supervision of an expert developer.
+
+It is built for developers who care about long-term quality and maintainance. You still get the assistance of an AI, but it stays under your strict control.
+
+## AI agents silently ruin your architecture
+
+_Illustration:_ Ask an AI agent to find a **shorter path from A to B**, and this is what you might get:
+
+![Schema: AI agent VS human-reviewed AI coding assistant chatbot reviewed by human in the loop](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/schema-river.png)
+
+## Proven effectiveness
+
+AICode’s methodology was used to build AICode itself from scratch, in only 7 months, by a single developer with zero prior knowledge of VS Code extension development or AI protocols, using "vibe coding" for about 95% of the work. However, “vibe coding” with AICode is not about shipping a quick prototype that becomes unmaintainable. If you follow the methodology and its core principles, you can produce high-quality code through a tightly intertwined collaboration between the developer and the AI.
+
+## Core principles
 
 AICode is designed around two core principles:
 
@@ -73,6 +61,10 @@ AICode is designed around two core principles:
 
 Bottom line: If you want AI speed and knowledge with fewer hallucinations, regressions, bad patterns, or overconfident guessing, and if you want to ask targeted questions and have relevant conversations about the codebase, AICode is the tool you are looking for.
 
+---
+
+<br />
+
 # 🔎 A real story: AI proposed a "fix" that deleted my data
 
 One day I had a subtle bug: the app couldn’t load an index file living under WSL. I asked an AI for help. At first it answered with vague explanations I didn’t really understand. After pushing it to be explicit, I eventually realized what it was suggesting: "fix" the issue by deleting the index file whenever loading it fails.
@@ -88,6 +80,10 @@ Now imagine the same AI as an autonomous coding agent with write access to the r
 - and proudly told me: _"All good, tests are green — ready to merge."_
 
 This real story is one example among many, and bad AI decisions happen over and over. That’s exactly why AICode is built around human-in-the-loop control, structured specifications, and manual patch review. The AI can propose ideas, but it never silently edits your codebase or ships a destructive "fix" behind your back.
+
+---
+
+<br />
 
 # ✨ AICode Feature Highlights
 
@@ -166,29 +162,9 @@ AICode **does not upload** your whole codebase contents to the cloud, because it
       └─────────────────────────── direct billing ──────────────────────────────────────┘
 ```
 
-# 🏁 Quick start (OpenAI BYOK)
+---
 
-1. Install **AICode** from the VS Code Marketplace.
-2. Open the **AICode** sidebar, click **Settings**, and go to the **"Engine: BYOK"** tab.
-3. Follow the guided 10-step setup assistant:
-   - create an OpenAI API account,
-   - generate a restricted API key,
-   - paste and save it locally (the value is stored in VS Code SecretStorage),
-   - run the "Test API key" and "Final connectivity test" buttons.
-
-4. Once the final test is validated, select the OpenAI engine and model in the AICode sidebar, and start a new chat.
-
-------------------------- _screenshot: Quick start step 1/4_ -------------------------  
-![screenshot: Quick start step 1/4](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/setup-1-empty.png)
-
-------------------------- _screenshot: Quick start step 2/4_ -------------------------  
-![screenshot: Quick start step 2/4](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/setup-2-opened.png)
-
-------------------------- _screenshot: Quick start step 3/4_ -------------------------  
-![screenshot: Quick start step 3/4](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/setup-3-settings.png)
-
-------------------------- _screenshot: Quick start step 4/4_ -------------------------  
-![screenshot: Quick start step 4/4](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/setup-4-setting-done.png)
+<br />
 
 # 📘 Basic tutorial: Implement a simple feature with AICode
 
@@ -198,9 +174,21 @@ AICode **does not upload** your whole codebase contents to the cloud, because it
 
 3. Review the generated code, adjust if needed, accept the changes, and you’re done.
 
+---
+
+<br />
+
+# 📘 Advanced tutorial: Implement a very risky and complex feature with AICode
+
+You can see an example of this procedure applied fully in this YouTube video tutorial: (Programming with AI - tutorial AICode 02 - Advanced specification)[https://youtu.be/VPrU8WZJOVs].
+
+---
+
+<br />
+
 # 🧪 Experimental local inference
 
-AICode also includes **experimental support for local LLMs** (llama.cpp and gpt-oss).
+AICode also includes **experimental support for local LLMs** (llama.cpp and chatgpt-oss).
 
 - This is a **research feature** meant for advanced users.
 - It is currently optimized for NVIDIA GPUs and WSL; performance and stability may vary.

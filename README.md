@@ -1,17 +1,21 @@
-# AICode — Safe AI Coding Assistant (Catch AI errors before they reach your codebase)
+# 🤖 What is AICode?
 
-AICode is a **review-first AI coding assistant** for Visual Studio Code.  
-It helps you **catch AI mistakes before they reach your repo** by combining AI analysis with **explicit human review** at every step.
+AICode is a complete **AI coding assistant** solution for Visual Studio Code, based on ChatGPT 5.2, able to analyse any codebase and generate code based on your prompts. But it also has a singularity:  
+It helps you **catch AI mistakes before they reach your repo** by combining additional AI analysis with **explicit human review** at every step.
 
-- ✅ **Not an autonomous agent**: no silent edits, no background repo writes
 - ✅ **Structured specifications** you can review and fix before any code is produced
-- ✅ **Reviewable patches** in a virtual workspace (you accept file-by-file)
-- ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch errors early
-- ✅ Works with **BYOK** (Bring Your Own Key) for OpenAI / Azure / ChatGPT (direct billing)
+- ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early
+- ✅ **Reviewable patches** in a virtual workspace that you accept file by file and line by line
 
 ![AICode AI Coding assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
 
-## 🎯 What AICode actually does
+# 🧠 Who is it for?
+
+- Developers who want an **AI coding assistant** but refuse unreviewed auto-edits
+- Teams who care about **code quality, architecture, and long-term maintainability**
+- People who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”
+
+# 🎯 How does it work?
 
 AICode is designed to reduce the most common failure modes of AI-assisted coding:
 
@@ -31,16 +35,16 @@ Bottom line: **AI speed + human control**.
 
 > YouTube introduction + real workflow demo: https://youtu.be/RMB0etc3DnI
 
-## 🚀 Quick setup
+# 🚀 Quick setup
 
 ![setup](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
 
-## ✨ Feature highlights
+# ✨ Feature highlights
 
 ### 💬 Chat with your codebase (grounded answers)
 
 AICode can read your workspace using multiple tools and indexes (project map, lexical search, vector search, AST/symbol navigation, Git history).  
-This helps it answer from real code, not generic boilerplate.
+This helps it analyse the project and find relevant sections in every way possible.
 
 ### 🛡️ Safe patch workflow (no silent actions)
 
@@ -68,9 +72,3 @@ AICode is designed to avoid uploading your entire codebase:
 - chat history is local,
 - only relevant excerpts are sent to your model provider,
 - BYOK means you connect directly to OpenAI / Azure (no intermediate server).
-
-## 🧠 Who is it for?
-
-- Developers who want an **AI coding assistant** but refuse unreviewed auto-edits
-- Teams who care about **code quality, architecture, and long-term maintainability**
-- People who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”

@@ -27,7 +27,7 @@ AICode is designed to reduce the most common failure modes of AI-assisted coding
 For the most complex tasks, AICode prevents these issues by using a controlled workflow: **Ideate → Specify → Refine → Code → Verify**.
 
 - **Before coding**: clarify and lock the intent (Ideate + Specify)
-- **Before coding**: catch mistakes early (Refine)
+- **Before coding**: catch design mistakes early (Refine)
 - **During coding**: you review patches (virtual workspace, manual accept)
 - **After coding**: audit vs spec (Verify)
 

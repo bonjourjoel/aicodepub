@@ -1,6 +1,6 @@
-# 🤖 What is AICode?
+# 🤖 What is AI Code?
 
-AICode is a complete **AI coding assistant** solution for Visual Studio Code, based on ChatGPT 5.2. Use it to:
+AI Code is a complete **AI coding assistant** solution for Visual Studio Code, based on ChatGPT 5.2. Use it to:
 
 - ✅ explore and understand your codebase,
 - ✅ debug, write, or modify code with ChatGPT,
@@ -13,17 +13,17 @@ But it also has a singularity: It helps you **catch AI mistakes before they reac
 
 <br />
 
-![AICode AI Coding assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
+![AI Code Copilot](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
 
 # 🧠 Who is it for?
 
-- Developers who want an **AI coding assistant** but refuse unreviewed auto-edits
+- Developers who want an **AI coding copilot** but refuse unreviewed auto-edits
 - Teams who care about **code quality, architecture, and long-term maintainability**
 - People who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”
 
 # 🎯 How does it work?
 
-AICode is designed to reduce the most common failure modes of AI-assisted coding:
+AI Code is designed to reduce the most common failure modes of AI-assisted coding:
 
 - unclear requirements turning into incorrect implementations,
 - overconfident “fixes” that hide symptoms instead of solving root cause,
@@ -43,13 +43,13 @@ Bottom line: **AI speed + human control**.
 
 # 🚀 Quick setup
 
-![setup](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
+![setup AI copilot](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
 
 # ✨ Feature highlights
 
 ### 💬 Chat with your codebase (grounded answers)
 
-AICode can read your workspace using multiple tools and indexes (project map, lexical search, vector search, AST/symbol navigation, Git history).  
+AICode agent can read your workspace using multiple tools and indexes (project map, lexical search, vector search, AST/symbol navigation, Git history).  
 This helps it analyse the project and find relevant sections in every way possible.
 
 ### 🛡️ Safe patch workflow (no silent actions)
@@ -62,17 +62,17 @@ This helps it analyse the project and find relevant sections in every way possib
 
 Turn complex requests into a specification you can read and correct before any code is produced.
 
-### 🐞 AI-assisted debugging workflows
+### 🐞 AI-assisted debugger
 
-Built-in guided debugging approaches (instrumentation-based workflows, regression investigation via Git history, etc.).
+Built-in guided debug approaches (instrumentation-based debug, regression investigation via Git history, etc.).
 
-### 👀 Code reviews
+### 👀 Code review
 
-AICode can help review PRs using your local Git repo and (optionally) MCP connectors (GitHub, GitLab, Jira, etc.).
+AICode agent can help review PRs using your local Git repo and (optionally) MCP connectors (GitHub, GitLab, Jira, etc.).
 
 ### 🔒 Offline-first + BYOK
 
-AICode is designed to avoid uploading your entire codebase:
+AI Code copilot is designed to avoid uploading your entire codebase:
 
 - indexing is local,
 - chat history is local,

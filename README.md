@@ -1,9 +1,9 @@
 # 🤖 What is AI Code?
 
-AI Code is a complete **AI coding assistant** solution for Visual Studio Code, based on ChatGPT 5.2. Use it to:
+AI Code is a complete **AI copilot** solution for Visual Studio Code, based on ChatGPT 5.2. Use it to:
 
 - ✅ explore and understand your codebase,
-- ✅ debug, write, or modify code with ChatGPT,
+- ✅ debug, write, or modify code with an AI coding assistant,
 
 But it also has a singularity: It helps you **catch AI mistakes before they reach your codebase** by combining AI analysis with **explicit human review** at every step.
 
@@ -13,11 +13,11 @@ But it also has a singularity: It helps you **catch AI mistakes before they reac
 
 <br />
 
-![AI Code Copilot](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
+![AI Code assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
 
 # 🧠 Who is it for?
 
-- Developers who want an **AI coding copilot** but refuse unreviewed auto-edits
+- Developers who want an **AI coding assistant** but refuse unreviewed auto-edits
 - Teams who care about **code quality, architecture, and long-term maintainability**
 - People who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”
 
@@ -43,13 +43,13 @@ Bottom line: **AI speed + human control**.
 
 # 🚀 Quick setup
 
-![setup AI copilot](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
+![setup AI code assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
 
 # ✨ Feature highlights
 
 ### 💬 Chat with your codebase (grounded answers)
 
-AICode agent can read your workspace using multiple tools and indexes (project map, lexical search, vector search, AST/symbol navigation, Git history).  
+AICode can read your workspace using multiple tools and indexes (project map, lexical search, vector search, AST/symbol navigation, Git history).  
 This helps it analyse the project and find relevant sections in every way possible.
 
 ### 🛡️ Safe patch workflow (no silent actions)

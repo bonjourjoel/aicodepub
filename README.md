@@ -1,11 +1,17 @@
 # 🤖 What is AICode?
 
-AICode is a complete **AI coding assistant** solution for Visual Studio Code, based on ChatGPT 5.2, able to analyse any codebase and generate code based on your prompts. But it also has a singularity:  
-It helps you **catch AI mistakes before they reach your repo** by combining additional AI analysis with **explicit human review** at every step.
+AICode is a complete **AI coding assistant** solution for Visual Studio Code, based on ChatGPT 5.2. Use it to:
+
+- ✅ explore and understand your codebase,
+- ✅ debug, write, or modify code with ChatGPT,
+
+But it also has a singularity: It helps you **catch AI mistakes before they reach your codebase** by combining AI analysis with **explicit human review** at every step.
 
 - ✅ **Structured specifications** you can review and fix before any code is produced
 - ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early
 - ✅ **Reviewable patches** in a virtual workspace that you accept file by file and line by line
+
+<br />
 
 ![AICode AI Coding assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
 

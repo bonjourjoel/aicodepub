@@ -78,7 +78,7 @@ AICode can read your workspace using a five-dimensional index, making it smarter
 
 Turn complex requests into a specification you can read and correct before any code is produced.
 
-### 📝 Refine and verify loops
+### 🔎 Refine and verify loops
 
 Instruct the AI to second-guess its work, as many times as you want. Each iteration finds more errors in the specification/code.
 

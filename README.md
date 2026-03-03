@@ -5,7 +5,7 @@ AI Code is a complete **AI copilot** solution for Visual Studio Code, based on C
 - ✅ explore and understand your codebase
 - ✅ debug, write, or modify code with an AI coding assistant
 
-What makes it different? ➡️ It helps you **catch AI mistakes before they reach your codebase** by combining AI analysis with **explicit human review** at every step.
+Unlike other AI tools, it **catches AI mistakes before they reach your codebase** by combining AI analysis with explicit **human review**, making AI safe even for large, critical projects.
 
 - ✅ **Structured specifications** you can review and fix before any code is produced
 - ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early

@@ -1,11 +1,11 @@
 # 🤖 What is AI Code?
 
-AI Code is a complete **AI copilot** solution for Visual Studio Code, based on ChatGPT 5.2. Use it to:
+AI Code is a complete **AI copilot** solution for Visual Studio Code, based on `ChatGPT 5.4`. Use it to:
 
 - ✅ explore and understand your codebase
 - ✅ debug, write, or modify code with an AI coding assistant
 
-Unlike other AI tools, it **catches AI mistakes before they reach your codebase** by combining AI analysis with explicit **human review**, making AI safe even for large, critical projects.
+Unlike other AI tools, AI Code is spec driven. It **catches AI mistakes before they reach your codebase** by combining AI analysis with explicit **human review**, making AI safe even for large, critical projects.
 
 - ✅ **Structured specifications** you can review and fix before any code is produced
 - ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early
@@ -91,6 +91,10 @@ Keep a human in the loop. Every change is presented as a reviewable patch.
 - Instrumentation-based debug: automatically finds and explains bugs in code areas that you don't fully understand
 - Regression investigation via Git history: compares current code to old revisions to find the commit that introduced the regression
 
+### 👀 Code review
+
+AICode agent can review PRs using your local Git repo and MCP connectors (GitHub, GitLab, Jira, etc.).
+
 ### 🧠 Specialized system instructions
 
 AI Code isn’t a raw chat model plugged into VS Code. It runs the model inside a system-instruction layer specialized for programming tasks.
@@ -99,9 +103,9 @@ AI Code isn’t a raw chat model plugged into VS Code. It runs the model inside 
 - **Architecture & quality guardrails:** it plans changes, enforces engineering best practices, keeps code architectured and maintainable
 - **Anti-hallucination by default:** answers must be grounded in evidence
 
-### 👀 Code review
+### 🧩 MCP connectors
 
-AICode agent can review PRs using your local Git repo and MCP connectors (GitHub, GitLab, Jira, etc.).
+Connect any local or cloud service supporting the MCP protocol.
 
 ### 🔒 Enterprise-grade security
 

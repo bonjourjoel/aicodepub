@@ -23,7 +23,7 @@ AI Code also includes features you won’t find in typical AI agents:
 
 <br />
 
-# 🧠 Who is it for?
+# 🎯 Who is it for?
 
 - Developers who want an **AI coding assistant** but refuse unreviewed auto-edits  
   ➡️ Solve the problem: “_I vibe-coded a prototype to prove the idea, but now I must rewrite it from scratch manually._”
@@ -36,7 +36,7 @@ AI Code also includes features you won’t find in typical AI agents:
 
 <br />
 
-# 🎯 How does it align models and enforce guardrails?
+# 🧠 How does it align models and enforce guardrails?
 
 AI Code is designed to reduce the most common failure modes of AI-assisted coding:
 

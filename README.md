@@ -26,7 +26,7 @@ AI Code also includes features you won’t find in typical AI agents:
 # 🧠 Who is it for?
 
 - Developers who want an **AI coding assistant** but refuse unreviewed auto-edits  
-  ➡️ Solve the problem: “_I vibe-coded a prototype to prove the idea, but the code is unmaintainable and now I must rewrite it from scratch._”
+  ➡️ Solve the problem: “_I vibe-coded a prototype to prove the idea, but now I must rewrite it from scratch manually._”
 
 - Teams who care about **code quality, architecture, and long-term maintainability**  
   ➡️ Solve the problem: “_AI helps us move faster, but our codebase is gradually becoming unmaintainable._”

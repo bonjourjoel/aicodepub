@@ -53,7 +53,7 @@ For the most complex tasks, AICode prevents these issues by using a controlled w
 - ↗️ **During coding - Code**: review patches
 - ↗️ **After coding - Verify**: audit generated code vs spec
 
-Bottom line: **AI speed + AI audit loops + human control = maintainable AI-generated code**.
+Bottom line: **↗️ AI speed + ↗️ AI audit loops + ↗️ human control = ↗️↗️↗️ maintainable AI-generated code**.
 
 > YouTube introduction + real workflow demo: https://youtu.be/RMB0etc3DnI
 

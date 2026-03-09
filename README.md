@@ -1,11 +1,11 @@
 # 🤖 What is AI Code?
 
-AI Code is a complete **AI copilot** solution for Visual Studio Code, based on `ChatGPT 5.4`. Use it to:
+AI Code is a complete **AI copilot** for VS Code, powered by `ChatGPT 5.4`, designed to be safer, smarter, and stay under human control. Use it to:
 
 - ✅ explore and understand your codebase
 - ✅ debug, write, or modify code with an AI coding assistant
 
-Unlike other AI tools, AI Code is spec driven. It **catches AI mistakes before they reach your codebase** by combining AI analysis with explicit **human review**, making AI safe even for large, critical projects.
+So what makes it different? ➡️ Unlike other AI tools, AI Code is _spec driven_. It **catches AI mistakes before they reach your codebase** by combining AI analysis with explicit **human review**, making AI safe even for large, critical projects.
 
 - ✅ **Structured specifications** you can review and fix before any code is produced
 - ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early
@@ -25,9 +25,14 @@ AI Code also includes features you won’t find in typical AI agents:
 
 # 🧠 Who is it for?
 
-- Developers who want an **AI coding assistant** but refuse unreviewed auto-edits
-- Teams who care about **code quality, architecture, and long-term maintainability**
-- Managers who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”
+- Developers who want an **AI coding assistant** but refuse unreviewed auto-edits  
+  ➡️ Solve the problem: “I vibe-coded a prototype to prove the idea, but the code is unmaintainable and now I must rewrite it from scratch.”
+
+- Teams who care about **code quality, architecture, and long-term maintainability**  
+  ➡️ Solve the problem: “AI helps us move faster, but our codebase is gradually becoming a mess.”
+
+- Managers who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”  
+  ➡️ Solve the problem: “I want to provide AI assistance to my development teams, but I'm worried it could lead to low-quality code.”
 
 <br />
 

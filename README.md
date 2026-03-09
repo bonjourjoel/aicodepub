@@ -5,7 +5,7 @@ AI Code is a complete **AI copilot** for VS Code, powered by `ChatGPT 5.4`, desi
 - ✅ explore and understand your codebase
 - ✅ debug, write, or modify code with an AI coding assistant
 
-So what makes it different? ➡️ Unlike other AI tools, AI Code is _spec driven_. It **catches AI mistakes before they reach your codebase** by combining AI analysis with explicit **human review**, making AI safe even for large, critical projects.
+So what makes it different? ➡️ Unlike other AI coding agents that produce code directly from a prompt, AI Code is _spec driven_. It combines AI analysis with human review to **catch AI mistakes before they reach your codebase**, making AI safe even for large, critical projects.
 
 - ✅ **Structured specifications** you can review and fix before any code is produced
 - ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early
@@ -26,13 +26,13 @@ AI Code also includes features you won’t find in typical AI agents:
 # 🧠 Who is it for?
 
 - Developers who want an **AI coding assistant** but refuse unreviewed auto-edits  
-  ➡️ Solve the problem: “I vibe-coded a prototype to prove the idea, but the code is unmaintainable and now I must rewrite it from scratch.”
+  ➡️ Solve the problem: “_I vibe-coded a prototype to prove the idea, but the code is unmaintainable and now I must rewrite it from scratch._”
 
 - Teams who care about **code quality, architecture, and long-term maintainability**  
-  ➡️ Solve the problem: “AI helps us move faster, but our codebase is gradually becoming a mess.”
+  ➡️ Solve the problem: “_AI helps us move faster, but our codebase is gradually becoming unmaintainable._”
 
 - Managers who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”  
-  ➡️ Solve the problem: “I want to provide AI assistance to my development teams, but I'm worried it could lead to low-quality code.”
+  ➡️ Solve the problem: “_I want to provide AI assistance to my development teams, but I'm worried it could lead to low-quality code._”
 
 <br />
 
@@ -40,18 +40,18 @@ AI Code also includes features you won’t find in typical AI agents:
 
 AI Code is designed to reduce the most common failure modes of AI-assisted coding:
 
-- unclear requirements turning into incorrect implementations
-- overconfident “fixes” that hide symptoms instead of solving the root cause
-- regressions caused by narrow-focus changes
-- architecture drift and inconsistent patterns from unreviewed auto-edits
+- ↘️ unclear requirements turning into incorrect implementations
+- ↘️ overconfident “fixes” that hide symptoms instead of solving the root cause
+- ↘️ regressions caused by narrow-focus changes
+- ↘️ architecture drift and inconsistent patterns from unreviewed auto-edits
 
 For the most complex tasks, AICode prevents these issues by using a controlled workflow: **Ideate → Specify → Refine → Code → Verify**.
 
-- **Before coding - Ideate**: clarify and lock the intent
-- **Before coding - Specify**: control the software architecture
-- **Before coding - Refine**: audit spec to catch design mistakes early
-- **During coding - Code**: review patches
-- **After coding - Verify**: audit generated code vs spec
+- ↗️ **Before coding - Ideate**: clarify and lock the intent
+- ↗️ **Before coding - Specify**: control the software architecture
+- ↗️ **Before coding - Refine**: audit spec to catch design mistakes early
+- ↗️ **During coding - Code**: review patches
+- ↗️ **After coding - Verify**: audit generated code vs spec
 
 Bottom line: **AI speed + AI audit loops + human control = maintainable AI-generated code**.
 

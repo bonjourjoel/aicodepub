@@ -1,11 +1,11 @@
-# 🤖 What is AI Code?
+# 🤖 What is AICode?
 
-AI Code is a complete **AI copilot** for VS Code, powered by `ChatGPT 5.4`, designed to be safer, smarter, and stay under human control. Use it to:
+AICode is a complete **AI coding assistant** for VS Code, powered by `ChatGPT 5.4`, designed to be safer, smarter, and stay under human control. Use it to:
 
 - ✅ explore and understand your codebase
 - ✅ debug, write, or modify code with an AI coding assistant
 
-So what makes it different? ➡️ Unlike other AI coding agents that produce code directly from a prompt, AI Code is _spec driven_. It combines AI analysis with human review to **catch AI mistakes before they reach your codebase**, making AI safe even for large, critical projects.
+So what makes it different? ➡️ Unlike other AI coding agents that produce code directly from a prompt, AICode is _spec driven_. It combines AI analysis with human review to **catch AI mistakes before they reach your codebase**, making AI safe even for large, critical projects.
 
 - ✅ **Structured specifications** you can review and fix before any code is produced
 - ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early
@@ -15,7 +15,7 @@ So what makes it different? ➡️ Unlike other AI coding agents that produce co
 
 ![AI Code assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
 
-AI Code also includes features you won’t find in typical AI agents:
+AICode also includes features you won’t find in typical AI agents:
 
 - ✅ an extensive system-instruction layer specialized for programming workflows and engineering best practices
 - ✅ a project map that helps the model understand your project’s global architecture with far fewer hallucinations
@@ -38,7 +38,7 @@ AI Code also includes features you won’t find in typical AI agents:
 
 # 🧠 How does it align models and enforce guardrails?
 
-AI Code is designed to reduce the most common failure modes of AI-assisted coding:
+AICode is designed to reduce the most common failure modes of AI-assisted coding:
 
 - ↘️ unclear requirements turning into incorrect implementations
 - ↘️ overconfident “fixes” that hide symptoms instead of solving the root cause
@@ -63,7 +63,7 @@ Bottom line: **↗️ AI speed + ↗️ AI audit loops + ↗️ human control = 
 
 Because AICode is offline-first, the install from VS Code takes 2-3 minutes. Please be patient.
 
-![setup AI code assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
+![setup AICode assistant](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/quick-setup.png)
 
 <br />
 
@@ -102,7 +102,7 @@ AICode agent can review PRs using your local Git repo and MCP connectors (GitHub
 
 ### 🧠 Specialized system instructions
 
-AI Code isn’t a raw chat model plugged into VS Code. It runs the model inside a system-instruction layer specialized for programming tasks.
+AICode isn’t a raw chat model plugged into VS Code. It runs the model inside a system-instruction layer specialized for programming tasks.
 
 - **Honest by design:** it won’t bluff when context is missing or uncertain; instead it will work with you to reach a reliable result
 - **Architecture & quality guardrails:** it plans changes, enforces engineering best practices, keeps code architectured and maintainable
@@ -114,7 +114,7 @@ Connect any local or cloud service supporting the MCP protocol.
 
 ### 🔒 Enterprise-grade security
 
-AI Code copilot is offline-first, designed to avoid uploading your entire codebase:
+AICode copilot is offline-first, designed to avoid uploading your entire codebase:
 
 - indexing is local, including vector indexing
 - chat history is local

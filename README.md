@@ -1,6 +1,13 @@
 # 🤖 What is AICode?
 
-AICode is a complete **AI coding assistant** for VS Code, powered by `ChatGPT 5.4`, designed to be safer, smarter, and stay under human control. Use it to:
+> AI models generate low quality code at record speed: junior-grade, duplicated, and inconsistent code that breaks your architectural invariants.  
+> AICode is the operating system above the model. It constrains the model to respect the project's global context and to produce senior-grade code.  
+> 💀 Generative AI is saturating the market with toxic code. 💡 AICode is the antidote.
+>
+> Dogfooding: AICode itself is a typescript program of 500.000 lines of code, generated and maintained by a solo developer using AICode.  
+> Think it's impossible? Try it.
+
+AICode has all the abilities of classical agents:
 
 - ✅ explore and understand your codebase
 - ✅ debug, write, or modify code with an AI coding assistant
@@ -17,6 +24,7 @@ So what makes it different? ➡️ Unlike other AI coding agents that produce co
 
 AICode also includes features you won’t find in typical AI agents:
 
+- ✅ an overpowered 5D index, able to find related code and documentation in every way possible
 - ✅ an extensive system-instruction layer specialized for programming workflows and engineering best practices
 - ✅ a project map that helps the model understand your project’s global architecture with far fewer hallucinations
 - ✅ a powerful AI debugger: it can instrument suspected code and iteratively explore code paths, or trace regressions to their root cause using Git history
@@ -31,7 +39,7 @@ AICode also includes features you won’t find in typical AI agents:
 - Teams who care about **code quality, architecture, and long-term maintainability**  
   ➡️ Solve the problem: “_AI helps us move faster, but our codebase is gradually becoming unmaintainable._”
 
-- Managers who want to use AI on **large production codebases** without turning the repo into a “prompt-generated mess”  
+- Managers who want to use AI acceleration on **large production codebases** without turning the repo into a “prompt-generated mess”  
   ➡️ Solve the problem: “_I want to provide AI assistance to my development teams, but I'm worried it could lead to low-quality code._”
 
 <br />

@@ -12,8 +12,9 @@ AICode has all the abilities of classical agents:
 - ✅ explore and understand your codebase
 - ✅ debug, write, or modify code with an AI coding assistant
 
-So what makes it different? ➡️ Unlike other AI coding agents that produce code directly from a prompt, AICode is _spec driven_. It combines AI analysis with human review to **catch AI mistakes before they reach your codebase**, making AI safe even for large, critical projects.
+So what makes it different? ➡️ Unlike other AI coding agents that produce code directly from a prompt, AICode is **spec driven** but **intent-aware**. It scales the level of rigor to your needs, combining AI analysis with human review to **catch AI mistakes before they reach your codebase**, making AI safe even for large, critical projects.
 
+- ✅ **Adaptive UX (Pull mode)**: No rigid pipelines to manage. The agent detects your intent and pulls the required guardrails (specs, verify loops) only when the task's complexity demands it.
 - ✅ **Structured specifications** you can review and fix before any code is produced
 - ✅ **Refine** (pre-code checks) and **Verify** (post-code audit) loops to catch design flaws and hidden side-effects early
 - ✅ **Reviewable patches** in a virtual workspace that you accept file by file and line by line
@@ -53,7 +54,7 @@ AICode is designed to reduce the most common failure modes of AI-assisted coding
 - ↘️ regressions caused by narrow-focus changes
 - ↘️ architecture drift and inconsistent patterns from unreviewed auto-edits
 
-For the most complex tasks, AICode prevents these issues by using a controlled workflow: **Ideate → Specify → Refine → Code → Verify**.
+**You define the intent, the agent pulls the procedure.** AICode adapts its strictness to what you are trying to achieve. For a simple fix, it stays out of your way. For the most complex tasks, AICode prevents these issues by using a controlled workflow: **Ideate → Specify → Refine → Code → Verify**.
 
 - ↗️ **Before coding - Ideate**: clarify and lock the intent
 - ↗️ **Before coding - Specify**: control the software architecture
@@ -87,9 +88,9 @@ AICode can read your workspace using a five-dimensional index, making it smarter
 - AST/symbol navigation
 - git history: to see back in time
 
-### 📝 Structured specs (review-first)
+### 📝 Auto-generated structured specs (review-first)
 
-Turn complex requests into a specification you can read and correct before any code is produced.
+The agent turns complex requests into a specification you can read and correct before any code is produced.
 
 ### 🔎 Refine and verify loops
 

@@ -40,7 +40,7 @@ Most codebases lose their map the moment the person who built them leaves, or th
 
 <br />
 
-## 🧠 What makes it different
+## 🧠 What makes AICode different
 
 - ✅ **Structured specs, reviewed before code exists**, not after
 - ✅ **Refine + Verify loops** catching design flaws and hidden side effects early

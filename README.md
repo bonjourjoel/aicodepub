@@ -1,8 +1,12 @@
 # 🤖 AICode: develop at light speed, without code review.
 
-> Classical AI coding agents write code fast. But the bottleneck was never generation, it's the human code review that follows, capping the real gain at 0x to 4x, with uncertain quality. AICode moves the control **before** the code is generated, not after: reading and fixing an intent is far easier than reading and fixing code. Result: **10x to 200x speed, with industrial quality**. Nothing slows down the AI.
+Classical AI coding agents write code a lot faster. But the bottleneck was never generation, it's the human code review that follows, capping the real gain at 0x to 4x, with uncertain quality.
 
-![AICode workflow: Ideate, Specify, Refine, Code, Verify](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
+AICode doesn't remove that verification. It moves the control **before** the code is generated, not after. The induced acceleration is spectacular, because reading and fixing an intent is far easier than reading and fixing code.
+
+The result: Top quality AI-driven software delivery, at 10x to 200x speed. Nothing slows down the AI.
+
+![AICode fast without review](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-speed-noreview.png)
 
 <br />
 
@@ -22,13 +26,21 @@ Standard agents write code, then you review it. That review is the real bottlene
 - **Code**: generated in a virtual workspace, reviewable patch by patch
 - **Verify**: the AI audits its own code against the spec afterward
 
+![AICode workflow: Ideate, Specify, Refine, Code, Verify](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-workflow.webp)
+
+<br />
+
+## 🐞 The AI audits and finds the errors, pass after pass
+
+This is what AICode can do for you, as many times as you want. Let the AI do the dirty job and find all the errors. Why would you bother?
+
 ![Refine pass: severity-graded list of changes with justification](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/refine-en.png)
 
 <br />
 
 ## 📊 Proof, on a real system
 
-In this case study, the agent rebuilds a core system invariant across 160 files in three days, correcting 201 errors before shipping with zero bugs and zero regressions: [read the case study →](https://aisovereignlabs.ai/docs/case-study/liveSession/case-study-live-session-en.pdf)
+In the following case study, the agent rebuilds a core system invariant in just three days, with minimal human input, running 31 verification passes and correcting 201 errors, before shipping code with zero bugs, zero regressions, and zero technical debt: [read the case study →](https://aisovereignlabs.ai/docs/case-study/liveSession/case-study-live-session-en.pdf)
 
 <br />
 

@@ -1,12 +1,22 @@
 # 🤖 AICode: develop at light speed, without code review.
 
-Classical AI coding agents write code a lot faster. But the bottleneck was never generation, it's the human code review that follows, capping the real gain at 0x to 4x, with uncertain quality.
+Classical AI coding agents write code very fast. But the bottleneck is the human code review that follows, capping the real gain at 0x to 4x.
 
-AICode doesn't remove that verification. It moves the control **before** the code is generated, not after. The induced acceleration is spectacular, because reading and fixing an intent is far easier than reading and fixing code.
+AICode moves the control **before** the code is generated, not after. Reading and fixing an intent is far easier than reading and fixing code.
 
-The result: Top quality AI-driven software delivery, at 10x to 200x speed. Nothing slows down the AI.
+Result: Industrial quality code at 10x to 200x speed.
 
 ![AICode fast without review](https://raw.githubusercontent.com/bonjourjoel/aicodepub/main/marketplace-assets/screenshots/aicode-speed-noreview.png)
+
+<br />
+
+## Featured in
+
+- [↗ Sourcefeed](https://sourcefeed.dev/a/when-the-spec-becomes-the-code-review) → _"genuinely the most interesting protocol document I've read this year"_
+
+- [↗ BizStack](https://bizstack.tech/ai-agent-refactored-189-files-in-a-717k-line-codebase-for-2430/) → _"For solo developers and small teams facing deep architectural debt, the protocol described here is worth reading carefully."_
+
+- [↗ AI Weekly](https://aiweekly.co/alerts/abenhaim-ai-agent-refactors-189-files-in-717k-line-typescript-app) → _"protocol reference for spec-first agent refactors that is hard to wave away"_
 
 <br />
 
@@ -40,7 +50,9 @@ This is what AICode can do for you, as many times as you want. Let the AI do the
 
 ## 📊 Proof, on a real system
 
-In the following case study, the agent rebuilds a core system invariant in just three days, with minimal human input, running 31 verification passes and correcting 201 errors, before shipping code with zero bugs, zero regressions, and zero technical debt: [read the case study →](https://aisovereignlabs.ai/docs/case-study/liveSession/case-study-live-session-en.pdf)
+In the following case study, published on arXiv, the agent rebuilds a core system invariant in just three days, with minimal human input, running 31 verification passes and correcting 201 errors, before shipping code with zero bugs, zero regressions, and zero technical debt:
+
+[↗ read the case study](https://arxiv.org/abs/2608.12440)
 
 <br />
 
